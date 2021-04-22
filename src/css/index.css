@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card{
+  justify-self: center;
+}
